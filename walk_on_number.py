@@ -1,11 +1,11 @@
 # Project1 walk_on_number
-# Name: Yiheng Du
-# Student ID: u7457260
 import math
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 from PIL import Image
 import os
+import sys
+sys.set_int_max_str_digits(50000)
 os.getcwd()
 
 # # Part 1: Returns the period of the expansion sequence.
