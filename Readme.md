@@ -62,7 +62,9 @@ prefix \ \ period&.period......(2)
 \end{split}
 \end{equation}
 $$
+
 The function eliminates the infinite repeating decimals at the end for convenience in calculation.
+
 $$
 \begin{equation}
 \begin{split}
@@ -73,7 +75,9 @@ $$
 \frac{m}{n}&=\frac{prefix \times Base^{len(prefix)}+period -prefix}{Base^{len(prefix)+len(period)}-Base^{len(prefix)}}
 \end{split}
 \end{equation}$$
+
 Then, it sets m and n as the numerator and denominator respectively, and then removes the greatest common factor to obtain the required m and n.
+
 $$
 \begin{equation}
 \begin{split}
@@ -82,6 +86,8 @@ n&=Base^{len(prefix)+len(period)}-Base^{len(prefix)}
 \end{split}
 \end{equation}
 $$
+
+
 Finally, the greatest common divisor of m and n is deleted using the `gcd` function in `math`.
 
 ### Part 5: from plot to (m, n) and redraw the plot
