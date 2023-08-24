@@ -4,7 +4,7 @@ Walk on Number
 What you should know:
 + When type the numbers, the codes only support the number under Base 10 (included).
 + Don't use the letters to show the numbers (such as 'b' shows '11', except question 4).
-How to use the codes: ![figure](./Pasted%20_mage_20230504225513.png)
+
 
 
 You can use terminal to use the codes. The codes support the `__main__` module. You just need to type the number to check every function, especially, type `7` can run the `test` function and type `0` to quit the running function. 
@@ -12,7 +12,10 @@ The answer to every question:
 1. `find_period(num_tuple, base)[2]` is the answer to question 1
 2. `find_nsteps(num_tuple, base, nsteps)[1]` is the answer to question 2
 3. `from_prefix_period2mn(prefix,period,base)` is the answer to question 4
-4. The answers to question 3 and 5 can used the test function to check manually.![[Pasted _mage_20230504225513.png]]
+4. The answers to question 3 and 5 can used the test function to check manually.
+
+How to use the codes: ![figure](./Pasted%20_mage_20230504225513.png)
+
 ### Part 1: Returns the period of the expansion sequence.
 + **The function extracts numerator and denominator, calculates quotient and remainder using a loop, and returns the length of the period, the periodic sequence, the list of periodic digits, and the list of prefix digits.**
 + **If there is no period, the length of the period, the periodic sequence, and the list of periodic digits are set to zero.**
