@@ -14,7 +14,7 @@ The answer to every question:
 3. `from_prefix_period2mn(prefix,period,base)` is the answer to question 4
 4. The answers to question 3 and 5 can used the test function to check manually.
 
-How to use the codes: ![figure](./Pasted%20_mage_20230504225513.png)
+How to use the codes: ![figure](./Pasted_mage_20230504225513.png)
 
 # Part 1: Returns the period of the expansion sequence.
 + **The function extracts numerator and denominator, calculates quotient and remainder using a loop, and returns the length of the period, the periodic sequence, the list of periodic digits, and the list of prefix digits.**
